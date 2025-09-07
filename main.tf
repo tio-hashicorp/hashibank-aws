@@ -1,6 +1,7 @@
 provider "aws" {
-#  version = "~> 3.0"
-  region  = var.region
+  version = "6.12.0"
+
+region  = var.region
 }
 
 resource "aws_vpc" "hashibank" {
